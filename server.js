@@ -62,7 +62,7 @@ const database = {
 }
 
 app.get('/', (req, res) => {
-    res.send(database.users);
+    res.send('it is working');
 })
 
 // check with current list of users in database that credentials are correct
